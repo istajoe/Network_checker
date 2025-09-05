@@ -1,0 +1,2 @@
+# requirements.txt
+# This project only requires Python 3.x (no external libraries)
