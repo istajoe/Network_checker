@@ -17,8 +17,9 @@ Project Structure
     network_checker/
     |--scripts
        |--network_checker.py   # Main Python script
-    │-- network_log.txt      # Log file (auto-created)
-    │-- README.md            # Project documentation
+       │-- network_log.txt      # Log file (auto-created)
+    │-- README.md 
+    |-- requirements.txt           # Project documentation
 
 Requirements
 
@@ -39,23 +40,8 @@ Run the script:
     python network_checker.py
 
 
-Example output:
-
-    8.8.8.8 is ONLINE 
-    1.1.1.1 is ONLINE 
-    github.com is ONLINE 
-
-
-Check logs inside network_log.txt:
-
-Network Check - 2025-09-04 10:15:23
-
-    8.8.8.8 is ONLINE
-    1.1.1.1 is ONLINE 
-    github.com is ONLINE 
+Check logs inside network_log.txt: 
 
 Customization
 
-    You can edit the list of hosts inside network_checker.py:
-
-    hosts_to_check = ["8.8.8.8", "1.1.1.1", "github.com", "example.com"]
+    you will have to add to youyr own hosts to check.
